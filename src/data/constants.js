@@ -313,6 +313,22 @@ export const education = [
 ];
 
 export const projects = [
+  {
+      id: 9,
+      title: "Shopee",
+      date: "Dec 2022 - Feb 2023",
+      description:
+        "Shopee is a frontend of an ecommerce website i built with reactjs and tailwind css. very modern and fully responsive",
+      image:
+        "https://drive.google.com/file/d/1WJM5_Vu6STMHCFkTz3gH7hofwENOqOQC/view?usp=sharing",
+      tags: [
+        "TailwindCSS",
+        "React Js",
+      ],
+      category: "Frontend",
+      github: "https://github.com/Holafix/eshop",
+      webapp: "https://zhopee.netlify.app/",
+    }
   // {
   //   id: 9,
   //   title: "Trackify",
