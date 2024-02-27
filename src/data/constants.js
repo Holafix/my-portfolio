@@ -328,6 +328,25 @@ export const projects = [
       category: "Frontend",
       github: "https://github.com/Holafix/eshop",
       webapp: "https://zhopee.netlify.app/",
+    },
+     {
+      id: 9,
+      title: "HTML STACK",
+      date: "June 2022 - Dec 2022",
+      description:
+        "Multiple web apps for various functions I developed with purely html, css and javascript.",
+      image:
+        "https://drive.google.com/file/d/1WJM5_Vu6STMHCFkTz3gH7hofwENOqOQC/view?usp=sharing",
+      tags: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "APIs",
+        "Bootstrap"
+      ],
+      category: "Frontend",
+      github: "https://github.com/Holafix",
+      webapp: "https://holafix.netlify.app/portfolio",
     }
   // {
   //   id: 9,
