@@ -336,7 +336,7 @@ export const projects = [
       description:
         "Multiple web apps for various functions I developed with purely html, css and javascript.",
       image:
-        "https://drive.google.com/file/d/1WJM5_Vu6STMHCFkTz3gH7hofwENOqOQC/view?usp=sharinghttps://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-2.PNG",
+        "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-2.PNG",
       tags: [
         "HTML",
         "CSS",
