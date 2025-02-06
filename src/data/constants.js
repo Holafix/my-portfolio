@@ -369,6 +369,21 @@ export const projects = [
     image:
       "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-4.PNG",
     tags: [
+      "WordPress"
+    ],
+    category: "Full-Stack",
+    github: "https://github.com/Holafix/",
+    webapp: "https://mysalesolution.com/",
+  },
+  {
+    id: 9,
+    title: "HuntforHistory",
+    date: "Aug 2024 - Dec 2024",
+    description:
+      "HuntforHistory is another woocommerce wordpress website I built while freelancing. It contains Scavenger hunts that prompt the user to pay before access.",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-5.PNG",
+    tags: [
       "TailwindCSS",
       "React Js",
       "MongoDB",
