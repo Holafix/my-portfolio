@@ -378,7 +378,7 @@ export const projects = [
   {
     id: 9,
     title: "HuntforHistory",
-    date: "Aug 2024 - Oct ",
+    date: "Aug 2024 - Oct 2024 ",
     description:
       "HuntforHistory is another woocommerce wordpress website I built while freelancing. It contains Scavenger hunts that prompt the user to pay before access.",
     image:
@@ -393,6 +393,23 @@ export const projects = [
     category: "Full-Stack",
     github: "https://github.com/Holafix/",
     webapp: "https://huntforhistory.com/",
+  },
+  {
+    id: 9,
+    title: "BeautyBakerie",
+    date: "Sept 2024 - Sept 2024 ",
+    description:
+      "HuntforHistory is another woocommerce wordpress website I built while freelancing. It contains Scavenger hunts that prompt the user to pay before access.",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-6.PNG",
+    tags: [
+      "Shopify",
+      "Paypal",
+      "Stripe"
+    ],
+    category: "Shopify",
+    github: "https://github.com/Holafix/",
+    webapp: "https://www.beautybakerie.com/",
   },
   {
     id: 9,
