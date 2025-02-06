@@ -97,14 +97,6 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "Wordpress",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxZJLIp2R9gUL4RWfWkBc2Bke3mU0v4kwDJWsFaCPvw&s",
-      },
-      {
-        name: "Shopify",
-        image: "https://www.svgrepo.com/show/331577/shopify.svg",
-      },
-      {
         name: "MongoDB",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
@@ -112,6 +104,40 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+    ],
+  },
+  {
+    title: "CMS/Ecommerce",
+    skills: [
+      {
+        name: "Wordpress",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxZJLIp2R9gUL4RWfWkBc2Bke3mU0v4kwDJWsFaCPvw&s",
+      },
+      {
+        name: "Woocommerce",
+        image: "https://e7.pngegg.com/pngimages/490/140/png-clipart-computer-icons-e-commerce-woocommerce-wordpress-social-media-icon-bar-link-purple-violet-thumbnail.png",
+      },
+      {
+        name: "Squarespace",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WaXg4OVLWf57ZC3PscUSp-c__nz4dicPTQ&s",
+      },
+      {
+        name: "Wix",
+        image: "https://cdn-icons-png.flaticon.com/512/5968/5968770.png",
+      },
+      {
+        name: "Paypal",
+        image: "https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png",
+      },
+      {
+        name: "Stripe",
+        image: "https://www.maropost.com/wp-content/uploads/2022/03/Stripe.png",
+      },
+      {
+        name: "Shopify",
+        image: "https://www.svgrepo.com/show/331577/shopify.svg",
+      },
+
     ],
   },
   // {
@@ -145,7 +171,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLnP6OmqDVCPB5Res4-7xWJK6DjMwnHa-HpQ&s",
       },
       {
         name: "GitHub",
@@ -170,17 +196,17 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
-        name: "Adobe XD",
+        name: "Thunder Client",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://rangav.gallerycdn.vsassets.io/extensions/rangav/vscode-thunder-client/2.33.2/1735302653220/Microsoft.VisualStudio.Services.Icons.Default",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXFrurUeTX6__eJaIPNC3pj7hPjDQUcGSRQ&s",
       },
     ],
   },
@@ -314,40 +340,61 @@ export const education = [
 
 export const projects = [
   {
-      id: 9,
-      title: "Shopee",
-      date: "Dec 2022 - Feb 2023",
-      description:
-        "Shopee is a frontend of an ecommerce website i built with reactjs and tailwind css. very modern and fully responsive",
-      image:
-        "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-1.PNG",
-      tags: [
-        "TailwindCSS",
-        "React Js",
-      ],
-      category: "Frontend",
-      github: "https://github.com/Holafix/eshop",
-      webapp: "https://zhopee.netlify.app/",
-    },
-     {
-      id: 9,
-      title: "HTML STACK",
-      date: "June 2022 - Dec 2022",
-      description:
-        "Multiple web apps for various functions I developed with purely html, css and javascript.",
-      image:
-        "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-2.PNG",
-      tags: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "APIs",
-        "Bootstrap"
-      ],
-      category: "Frontend",
-      github: "https://github.com/Holafix",
-      webapp: "https://holafix.netlify.app/portfolio",
-    }
+    id: 9,
+    title: "DreamLine",
+    date: "Aug 2024 - Dec 2024",
+    description:
+      "DreamLine is a Full Stack E-commerce Website built with MERN STACK AND Stripe",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-3.PNG",
+    tags: [
+      "TailwindCSS",
+      "React Js",
+      "MongoDB",
+      "ExpressJS",
+      "Thunder Client",
+      "Node JS",
+      "Stripe"
+    ],
+    category: "Full-Stack",
+    github: "https://github.com/Holafix/ecommerce-fullStack",
+    webapp: "https://ecommerce-frontend-liard-tau.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Shopee",
+    date: "Dec 2022 - Feb 2023",
+    description:
+      "Shopee is a frontend of an ecommerce website i built with reactjs and tailwind css. very modern and fully responsive",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-1.PNG",
+    tags: [
+      "TailwindCSS",
+      "React Js",
+    ],
+    category: "Frontend",
+    github: "https://github.com/Holafix/eshop",
+    webapp: "https://zhopee.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "HTML STACK",
+    date: "June 2022 - Dec 2022",
+    description:
+      "Multiple web apps for various functions I developed with purely html, css and javascript.",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-2.PNG",
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "APIs",
+      "Bootstrap"
+    ],
+    category: "Frontend",
+    github: "https://github.com/Holafix",
+    webapp: "https://holafix.netlify.app/portfolio",
+  }
   // {
   //   id: 9,
   //   title: "Trackify",
