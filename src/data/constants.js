@@ -344,9 +344,30 @@ export const projects = [
     title: "DreamLine",
     date: "Aug 2024 - Dec 2024",
     description:
-      "DreamLine is a Full Stack E-commerce Website built with MERN STACK AND Stripe",
+      "DreamLine is a Full Stack E-commerce Website built with MERN STACK AND Stripe. Includes:Frontend, Adminend and Backend",
     image:
       "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-3.PNG",
+    tags: [
+      "TailwindCSS",
+      "React Js",
+      "MongoDB",
+      "ExpressJS",
+      "Thunder Client",
+      "Node JS",
+      "Stripe"
+    ],
+    category: "Full-Stack",
+    github: "https://github.com/Holafix/ecommerce-fullStack",
+    webapp: "https://ecommerce-frontend-liard-tau.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "MySaleSolution",
+    date: "Dec 2024 - Jan 2025",
+    description:
+      "MySaleSolution is a project I built while freelancing for an ecommerce agency. Built with wordpress",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-4.PNG",
     tags: [
       "TailwindCSS",
       "React Js",
