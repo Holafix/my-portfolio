@@ -399,7 +399,7 @@ export const projects = [
     title: "BeautyBakerie",
     date: "Sept 2024 - Sept 2024 ",
     description:
-      "HuntforHistory is another woocommerce wordpress website I built while freelancing. It contains Scavenger hunts that prompt the user to pay before access.",
+      "Built with shopify. A full-stack ecommerce store.",
     image:
       "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-6.PNG",
     tags: [

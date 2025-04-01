@@ -142,17 +142,20 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm >
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
+          {/* <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" /> */}
+          <ContactButton type="submit" value="Send a Mail" onClick={window.location.href='mailto:olatundeolawale111@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Holafix,%20I%20contacted%20you%20through%20your%20portfolio.'} />
+          <ContactTitle>Whatsapp Me 🚀</ContactTitle>
+          <ContactButton type="submit" value="Send a Message" onClick={window.location.href='https://wa.me/2348144415305?text=Hi%20Holafix,%20I%20contacted%20you%20through%20your%20portfolio.'}/>
+
         </ContactForm>
         <Snackbar
           open={open}
