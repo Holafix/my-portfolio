@@ -12,6 +12,8 @@ export const Bio = {
   description:
     "I am a motivated, self learned and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Holafix",
+  mail:"mailto:olatundeolawale111@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Holafix,%20I%20contacted%20you%20through%20your%20portfolio.'",
+  whatsapp:"https://wa.me/2348144415305?text=Hi%20Holafix,%20I%20contacted%20you%20through%20your%20portfolio.",
   resume:
     "https://drive.google.com/file/d/1UiLhANWO2NWvLkga4SEXdweQU-E8VAzP/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/holatunde",
