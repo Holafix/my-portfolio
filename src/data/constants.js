@@ -344,14 +344,13 @@ export const projects = [
   {
     id: 9,
     title: "SaaSBM",
-    date: "Aug 2024 - Dec 2024",
+    date: "Feb 2025 - Mar 2025",
     description:
-      "A Ddgital membership platform built with Wordpress",
+      "A premium business membership platform built with Wordpress",
     image:
       "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-7.PNG",
     tags: [
      "Wordpress",
-     "Woocommerce",
      "Paypal"
     ],
     category: "Full-Stack",
@@ -382,18 +381,15 @@ export const projects = [
   {
     id: 9,
     title: "Kromolead",
-    date: "Aug 2024 - Dec 2024",
+    date: "Jan 2025 - Feb 2025",
     description:
-      "DreamLine is a Full Stack E-commerce Website built with MERN STACK AND Stripe. Includes:Frontend, Adminend and Backend",
+      "A modern Ecommerce platform built with wordpress",
     image:
       "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-8.PNG",
     tags: [
-      "TailwindCSS",
-      "React Js",
-      "MongoDB",
-      "ExpressJS",
-      "Thunder Client",
-      "Node JS",
+      "Wordpress",
+      "Woocommerce",
+      "Paypal",
       "Stripe"
     ],
     category: "Full-Stack",
