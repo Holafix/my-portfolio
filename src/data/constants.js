@@ -343,12 +343,50 @@ export const education = [
 export const projects = [
   {
     id: 9,
+    title: "SaaSBM",
+    date: "Aug 2024 - Dec 2024",
+    description:
+      "A Ddgital membership platform built with Wordpress",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-7.PNG",
+    tags: [
+     "Wordpress",
+     "Woocommerce",
+     "Paypal"
+    ],
+    category: "Full-Stack",
+    github: "https://github.com/Holafix/ecommerce-fullStack",
+    webapp: "https://ecommerce-frontend-liard-tau.vercel.app/",
+  },
+  {
+    id: 9,
     title: "DreamLine",
     date: "Aug 2024 - Dec 2024",
     description:
       "DreamLine is a Full Stack E-commerce Website built with MERN STACK AND Stripe. Includes:Frontend, Adminend and Backend",
     image:
       "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-3.PNG",
+    tags: [
+      "TailwindCSS",
+      "React Js",
+      "MongoDB",
+      "ExpressJS",
+      "Thunder Client",
+      "Node JS",
+      "Stripe"
+    ],
+    category: "Full-Stack",
+    github: "https://github.com/Holafix/ecommerce-fullStack",
+    webapp: "https://ecommerce-frontend-liard-tau.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Kromolead",
+    date: "Aug 2024 - Dec 2024",
+    description:
+      "DreamLine is a Full Stack E-commerce Website built with MERN STACK AND Stripe. Includes:Frontend, Adminend and Backend",
+    image:
+      "https://raw.githubusercontent.com/Holafix/my-portfolio/master/src/components/assets/port-8.PNG",
     tags: [
       "TailwindCSS",
       "React Js",
